@@ -1,0 +1,9 @@
+[Gedit Plugin]
+Loader=python
+Module=remap_django_templates
+IAge=2
+Name=Remap Django Templates
+Description=use Django highlighting for all HTML files by default
+Authors=David Guaraglia <david@guaraglia.com>
+Copyright=Copyright 2010 David Guaraglia <david@guaraglia.com>
+Website=
