@@ -34,7 +34,7 @@ class RemapDjangoTemplatesPlugin(gedit.Plugin):
         self._watchers[window] = TabWatch(window)
 
     def deactivate(self, window):
-        pass
+        del self._watchers[window]
 
     def update_ui(self, window):
         pass
